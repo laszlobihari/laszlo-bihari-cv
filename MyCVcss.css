@@ -1,0 +1,135 @@
+@font-face {
+    font-family: Lexend_Deca;
+    src: url("Fonts\Lexend_Deca\LexendDeca-VariableFont_wght.ttf");
+}
+
+* {
+    font-family: Lexend_Deca, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header_container {
+    display: flex; /* Enable Flexbox */
+    margin: 0 auto; /* Center the container */
+}
+
+.header_right-column {
+    flex: 9;
+    background-color: #2a354b;
+    color: white;
+    height: 200px;
+    font-size: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 50px;
+}
+
+.header_left-column {
+    flex: 1;
+    background-color: #2a354b;
+    color: white;
+    height: 200px;
+    font-size: 50px;
+    padding: 10px;
+}
+
+.underline {
+    border-color:rgba(255, 255, 255, 0.4);
+}
+
+.main_container {
+    display: flex; /* Enable Flexbox */
+    margin: 0 auto; /* Center the container */
+}
+
+.main_left-column {
+    flex: 2;
+}
+
+.main_right-column {
+    flex: 1;
+    background-color: #eff0f2;
+}
+
+.section_title {
+    font-size: 28px;
+    color: #2a354b;
+    background-color: #eff0f2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+}
+
+.personal_profile {
+    padding-bottom: 10px;
+}
+
+.special_padding {
+    padding-top: 17px;
+    padding-left: 50px;
+}
+
+p {
+    padding-top: 0px;
+    padding-bottom: 10px;
+    padding-left: 65px;
+    font-size: 14px;
+}
+
+h3 {
+    font-size: 20px;
+    color: #2a354b;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 65px;
+}
+
+h4 {
+    font-size: 15px;
+    color: #2a354b;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 65px;
+}
+
+ul {
+    padding-left: 80px;
+}
+
+ul li {
+    font-size: 15px;
+    text-indent: 0px;
+    padding-bottom: 12px;
+}
+
+.business_case_solving {
+    padding-top: 20px;
+}
+
+.other_competences {
+    padding-top: 20px;
+}
+
+.profile_pic {
+    width: 155px;
+    height: 182px;
+}
+
+a {
+    color: inherit;
+}
+
+a:visited {
+    color: inherit; /* Prevent color change after visiting */
+}
+
+a:hover {
+    color: inherit; /* No color change on hover */
+}
+
+a:active {
+    color: inherit; /* No color change when clicking */
+}
